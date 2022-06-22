@@ -20,27 +20,26 @@
 
 <!-- personagem 1-->
       <form>
+        <fieldset>
 
 
-        <div>
+
+        <h4>Personagem 1</h4>
             
             <input type="checkbox" name="bike">
             Incluir esete personagem na batalha
             <br>
             
-        </div>
+      
 
-        <div>
+    
             <label for="nome">Nome:</label>
             <input type="text" id="nome" />
-        </div>
-       
-        <div> 
-            <label>NAÇÃO</label> 
-        </div>
-
-        <div>
+     
             <fieldset>
+            <div>
+            <label>NAÇÃO</label>
+           
             <label>
                 <input type="radio" name="nacao" value="Anão"> Anão
             </label>
@@ -64,36 +63,43 @@
             <label>
                 <input type="radio" name="nacao" value="Uruk-hai"> Uruk-hai
             </label>
+            </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                <label>Habilidades</label>
+           
+                Força: <input type="number" name="quantidade" min="10" max="20">
+    
+                Precisão: <input type="number" name="quantidade" min="10" max="20">
+    
+                Velocidade: <input type="number" name="quantidade" min="10" max="20">
+    
+                Armadura: <input type="number" name="quantidade" min="10" max="20">
+    
+                Recuperação: <input type="number" name="quantidade" min="10" max="20">
+                </div>
+          
         </fieldset>
-        </div>
-
-        <div>
-            <label>Habilidades</label>
-        <fieldset>
-            Força: <input type="number" name="quantidade" min="10" max="20">
-
-            Precisão: <input type="number" name="quantidade" min="10" max="20">
-
-            Velocidade: <input type="number" name="quantidade" min="10" max="20">
-
-            Armadura: <input type="number" name="quantidade" min="10" max="20">
-
-            Recuperação: <input type="number" name="quantidade" min="10" max="20">
-
-
-        </fieldset>
-
+        </form>
+    
+                
+    
+       
+                <div id="comandos">
+                    <button type="button" onclick="NovoPErsonagem()">Criar novo personagem</button>
+                    <button type="button" onclick="IncluirPersonagem()">Incluir Prsonagem</button>
+                
+                  </div>
      
 
-            <h4>Criar Personagem 1</h4>
+        
 
-    </div>
-
-       
+       <!--
        
 
     </form>
-<!--PErsonagem 2-->
+<!--PErsonagem 2
     <form>
 
 
@@ -168,7 +174,7 @@
        
 
 </form>
-<!--Personagem 3-->
+<!--Personagem 3
 <form>
         <div>
             
@@ -237,7 +243,7 @@
 
         </div>
 </form>
-<!--PErsonagem 4-->
+<!--PErsonagem 4
 
 <form>
     <div>
@@ -308,7 +314,7 @@
     </div>
 </form>
 
-<!-- PErsonagem 5-->
+<!-- PErsonagem 5
 
 <form>
     <div>
@@ -379,7 +385,7 @@
     </div>
 </form>
 
-<!-- PErsonagem 6-->
+<!-- PErsonagem 6
 
 <form>
     <div>
@@ -450,7 +456,7 @@
     </div>
 </form>
 
-<!-- Personagem 7-->
+<!-- Personagem 7
 
 <form>
     <div>
@@ -521,7 +527,7 @@
     </div>
 </form>
 
-<!--PErsonagem 8-->
+<!--PErsonagem 8
 
 <form>
     <div>
@@ -590,7 +596,7 @@
         <h4>Criar Personagem 8</h4>
 
     </div>
-</form>
+</form> -->
     
 </body>
 
