@@ -4,55 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Inicial</title>
-    <link rel="stylesheet" href="estilos.css" >
-    
-    
-
+    <title>Pagina Inicial | Jogo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+        <header class="cabeca" id="header">
 
-    <a href="index.html">Pagina Inicial</a>
-    <a href="descricaoJogo.html">Jogabilidade e personagens</a>
-    <a href="formulario.html">Criar Personagens</a>
-   <a href="sobresite.html">Sobre</a>
+            <div class="wraper">
+                <div class="logo"><h2>Jogo</h2></div>
 
-    <h1>Batalhas na Terra Média por TIEB v. 2022.1</h1>
-    <nav>
-       <!-- <ul> 
-          <li><a href="index.html">Pagina Inicial</a></li>
-          <li><a href="descricaoJogo.html">descricaoJogo</a></li>
-          <li><a href="formulario.html">Criar Personagens</a></li>
-          <li><a href="sobresite.html">Sobre</a></li>
-        </ul>   --> 
-    <div>
-        <P> <a href="descricaoJogo.html">Jogabilidade e personagens</a>.</P>
-        <P> <a href="formulario.html">Criar personagens</a></P>
-        <P> <a href="sobresite.html">Sobre</a></P>
+                <div class="title"><h2>Projeto web</h2></div>
+            </div>
+            <nav class="navigation">
+                <li><a href="index.html" class="nav-link">Pagina Inicial</a></li>
+                <li><a href="descricaoJogo.html" class="nav-link">Jogabilidade e personagens</a></li>
+                <li><a href="formulario.html" class="nav-link">Criar Personagens</a></li>
+                <li><a href="sobresite.html" class="nav-link">Sobre</a></li>
+            </nav>
 
-    </div>
-    <div>
-        <p>O jogoBatalhas na Terra-Média(BTM)é baseadono mundo e nos 
-            personagens criados pelo linguista e escritor britânico J. R. R. Tolkiennas 
-            suas obras O Senhor dosAnéis(dividido em 3 volumes), O Hobbit e Silmarillion, 
-            dentre outras.Tanto O Senhor dos Anéis como O Hobbit foram adaptados 
-            para cinema, tornando-se grandes sucessos de bilheteria.
-            Cabe frisar que, ainda hoje,os direitossobre a obra são detidos pela 
-            TolkienEnterprises.Porém, a dinâmica do jogo é toda definida neste documento, 
-            conforme as próximas seções.</p>
-    </div>
+        </header>
 
-    <video src="https://www.youtube.com/watch?v=rJzCzVKYhfs" controls> </video>
-    <div>
-        <p>
+        <h1 id="main-heading">Batalhas na Terra Média por TIEB v. 2022.1</h1>
 
-        </p>
-    </div>
+      
+        <div class="video-container">
+            <!-- Se você estiver usando um iframe para o YouTube -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lC1omgINcRI" frameborder="0" allowfullscreen></iframe>
+        
+            <!-- Se você estiver usando a tag video -->
+            <!-- <video src="https://www.youtube.com/watch?v=lC1omgINcRI" controls class="main-video"></video> -->
+        </div>
 
-    <footer><p>Curso de TI da Estácio de Brasília em 2022.1 (TIEB 2022.1</p>
-            <p>Todos os direitos resevados</p>
-            <p>(Terra-Média locais e personagens sao direitos 
-                de <a href="https://www.middleerth.com/home.html">Tolkien 
-                    Enterprises</a></p></footer>
+    
+       
+
+        <div id="texto_principal" class="main-content">
+            <p>O jogo Batalhas na Terra-Média (BTM) é baseado no mundo e nos 
+                personagens criados pelo linguista e escritor britânico J. R. R. Tolkien 
+                nas suas obras O Senhor dos Anéis (dividido em 3 volumes), O Hobbit e Silmarillion, 
+                dentre outras. Tanto O Senhor dos Anéis como O Hobbit foram adaptados 
+                para cinema, tornando-se grandes sucessos de bilheteria. Cabe frisar que, ainda hoje,
+                os direitos sobre a obra são detidos pela Tolkien Enterprises. Porém, a dinâmica do 
+                jogo é toda definida neste documento, conforme as próximas seções.</p>
+        </div>
+
+
+        <footer id="footer">
+            <p>Curso de TI da Estácio de Brasília em 2022.1 (TIEB 2022.1)</p>
+            <p>Todos os direitos reservados</p>
+            <p>(Terra-Média locais e personagens são direitos de <a href="https://www.middleerth.com/home.html" class="external-link">Tolkien Enterprises</a>)</p>
+        </footer>
 </body>
+
 </html>

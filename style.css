@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1b1d;
+    color: #fff;
+}
+
+/* Header Styles */
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(47, 75, 75);
+align-items: center;
+}
+
+.wraper {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    }
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 80%;
+    background-color: #ffcc00;
+}
+.logo h2 {
+    color: #1b1b1d;
+    font-family: 'Lato', sans-serif;
+}
+
+.title{
+        margin-left: 40px;
+    }
+
+.title h2{
+    font-family: 'Lato', sans-serif;
+}
+.navigation {
+    display: flex;
+}
+.navigation li {
+    margin: 40px;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+.navigation li a:hover{
+    background-color: #ffcc00;
+    color: #000;
+
+}
+
+
+#cabeca {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+
+
+
+/* Main Heading Styles */
+#main-heading {
+    color: #ffcc00;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Navigation Styles */
+#main-navigation {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* Main Content Styles */
+#texto_principal {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Video Styles */
+.main-video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+
+/* Footer Styles */
+#footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.external-link {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+
+#sobre_mim {
+    align-items: center;
+    margin-top: 100px;
+}
+
+#sobre_autor {
+    color: #ffcc00;
+}
+
+#fotog{
+    justify-content: center;
+    display: flex;
+    border-radius: 70%;
+}
+
+#fotog img {
+    margin-top: 30px;
+    border-radius: 80%;
+}
+
+#redes_sociais  {
+    
+    justify-content: center;
+    display: flex;
+    list-style: none;
+}
+
+.channel-list {
+    display: flex;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-video {
+    max-width: 100%;
+    max-height: 100%;
+}
